@@ -1,0 +1,35 @@
+{
+  "name": "separo",
+  "version": "0.0.0",
+  "description": "A Smarter String Split. Preserve Separator and more!",
+  "main": "separo.js",
+  "files": [
+    "separo.js"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/separo.git"
+  },
+  "keywords": [
+    "chop",
+    "deconcat",
+    "separate",
+    "split",
+    "string",
+    "substring",
+    "tokenize",
+    "word"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/separo/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/separo#readme",
+  "devDependencies": {
+    "flug": "*"
+  }
+}
