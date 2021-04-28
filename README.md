@@ -18,13 +18,13 @@ import separo from 'separo';
 
 const str = "The dog runs.";
 separo(str, " ");
-// result is ["The", "dog", "runs"]
+// result is ["The", "dog", "runs."]
 
 separo(str, " ", { keepSep: true });
-// result is ["The", " ", "dog", " ", "runs"]
+// result is ["The", " ", "dog", " ", "runs."]
 
 separo(str, " ", { attachSep: true });
-// result is ["The", " dog", " runs"]
+// result is ["The", " dog", " runs."]
 
 separo(str, [" ", "."], { keepSep: true });
 // result is ["The", " ", "dog", " ", "runs", "."]
