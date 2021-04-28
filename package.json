@@ -1,6 +1,6 @@
 {
   "name": "separo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Smarter String Split. Preserve Separator and more!",
   "main": "separo.js",
   "files": [
